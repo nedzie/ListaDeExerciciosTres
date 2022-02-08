@@ -11,11 +11,15 @@ namespace ExercicioCinco.ConsoleApp
 
             Console.WriteLine("Digite um número para saber seu ¡fatorial!: ");
             fatorial = int.Parse(Console.ReadLine());
+
+
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            for(int i = fatorial; i > 0; i--) // Pegará o número, e irá multiplicando, repetição por repetição
+
+            Console.Write(fatorial + "!: ");
+            for(int i = fatorial; i > 0; i--) 
             {
-                res = i * res;
+                res = i * res; // Pegará o número, e irá multiplicando, repetição por repetição
                 Console.Write(i);
                 if(i > 1)
                 {
@@ -23,7 +27,9 @@ namespace ExercicioCinco.ConsoleApp
                 }   
             }
             Console.WriteLine(" = " + res);
+
             Console.ResetColor();
+            Console.ReadKey();
         }
     }
 }

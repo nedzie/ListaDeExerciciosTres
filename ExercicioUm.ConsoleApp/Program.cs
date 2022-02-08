@@ -29,6 +29,7 @@ namespace ExercicioUm.ConsoleApp
             }
             Console.Clear();
             Console.WriteLine("O mais baixo tem: " + mBaixo + "m de altura.\nO mais alto tem: " + mAlto + "m de altura.");
+            Console.ReadKey();
         }
     }
 }

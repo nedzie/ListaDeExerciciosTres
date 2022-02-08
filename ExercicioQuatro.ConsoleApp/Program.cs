@@ -15,6 +15,7 @@ namespace ExercicioQuatro.ConsoleApp
             {
                 Console.WriteLine(i + " x " + escolha + " = " + (i*escolha));
             }
+            Console.ReadKey();
         }
     }
 }

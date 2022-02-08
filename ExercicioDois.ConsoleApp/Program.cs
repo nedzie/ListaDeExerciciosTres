@@ -15,6 +15,7 @@ namespace ExercicioDois.ConsoleApp
                 Console.WriteLine(x + "º ímpar: " + i);
                 }
             }
+            Console.ReadKey();
         }
     }
 }

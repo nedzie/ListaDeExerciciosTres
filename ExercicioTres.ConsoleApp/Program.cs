@@ -19,6 +19,7 @@ namespace ExercicioTres.ConsoleApp
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(total);
             Console.ResetColor();
+            Console.ReadKey();
         }
     }
 }
